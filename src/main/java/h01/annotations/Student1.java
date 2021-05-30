@@ -29,7 +29,7 @@ Because in hibernate we will convert classes to table.
  	Note:If you wil use a class in hibernate to create table in database, do not make any variable "final" or "static"
  */
 
-	@Id
+	@Id //@Id is used to make a variable primary key in table
 	private int student_id;
 	
 	@Column(name="student_name")////@Column() is used to be able to use different names for columns
@@ -69,6 +69,7 @@ Because in hibernate we will convert classes to table.
 	public String toString() {
 		return "Student1 [student_id=" + student_id + ", name=" + name + ", grade=" + grade + "]";
 	}
+	//Student1 classindan sonra RunnerSave1 classi olusturacak.
 
 
 }
