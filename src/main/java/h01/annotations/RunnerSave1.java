@@ -38,6 +38,14 @@ public class RunnerSave1 {
 		
 		tx.commit();
 		
+		/*
+		 SELECT * FROM students_table;
+
+		 DROP TABLE students_table;
+		 */
+		
+		//Bu classtan sonra RunnerFetch1 clasi olusturuldu. 
+		
 		
 		
 		
