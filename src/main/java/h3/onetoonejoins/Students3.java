@@ -16,6 +16,7 @@ public class Students3 {
 	
 	@OneToOne(mappedBy="student")
 	private Dairy dairy;
+
 	
 	public Students3() {
 		
